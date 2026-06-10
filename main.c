@@ -41,7 +41,7 @@ if(startCol>endCol)
     }
 for(j=startCol;j<=endCol;j++)
     {
-        if(j>=0 &&j WIDTH)
+        if(j>=0 && j < WIDTH)
             canvas[row][j] = '*';
     }
 }
